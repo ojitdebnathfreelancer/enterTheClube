@@ -12,10 +12,10 @@ const Banner = () => {
             </div>
          </div>
          <div className="max-container fontRedunReg text-white text-center lg:leading-[170px] leading-[120px]">
-            <h1 className="lg:text-[180px] md:text-[130px] text-[110px]">
+            <h1 className="lg:text-[250px] lg:leading-[240px] md:leading-[210px] md:text-[220px] text-[110px]">
                CRYPTO
             </h1>
-            <h1 className="lg:text-[180px] md:text-[130px] text-[110px]">
+            <h1 className="lg:text-[250px] lg:leading-[240px] md:leading-[210px] md:text-[220px] text-[110px]">
                BROS
             </h1>
             <p className="fontTrash text-[#5accf5] md:text-2xl text-xl md:mt-6">
