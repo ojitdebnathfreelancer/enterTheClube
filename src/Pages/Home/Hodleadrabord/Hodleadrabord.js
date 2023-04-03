@@ -14,7 +14,7 @@ const Hodleadrabord = () => {
             <div className="flex justify-center items-center gap-4">
               <p>1</p>
               <img className="h-14 w-14 rounded-full" src={img} alt="img" />
-              <h2 className=''>dontfadeanon.eth</h2>
+              <h2 className="fontSfBold">dontfadeanon.eth</h2>
             </div>
             <div className="h-14  relative w-[190px] ">
               <img

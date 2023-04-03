@@ -4,7 +4,7 @@ import img from "../.././../assets/Honorary/Frank.jpg";
 
 const Noanimal = () => {
    return (
-      <div className="md:pt-24 pt-16 px-4">
+      <div className="lg:mt-[200px] md:mt-[150px] mt-[50px] px-4">
          <div className="max-container ">
             <div className="grid md:grid-cols-4 gap-6 lg:w-[950px] mx-auto mt-3">
                <div className="col-span-1">
