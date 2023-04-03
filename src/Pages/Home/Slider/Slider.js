@@ -8,18 +8,20 @@ import frank from "../../../assets/Honorary/Frank.jpg";
 import keung from "../../../assets/Honorary/Keung.png";
 import kmoney from "../../../assets/Honorary/Kmoney.png";
 import minister from "../../../assets/Honorary/Minister of NFTs.jpg";
+import arrow from '../../../assets/arrow-2.svg';
 import tre from "../../../assets/Honorary/Tre.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay,  Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 import SliderItem from './SliderItem';
+import Title from '../../../Components/Title/Title';
 
 
 const Sliders = () => {
-    
+
   const sliderImg = [
     {
       id: 1,
@@ -65,23 +67,16 @@ const Sliders = () => {
       id: 9,
       img: minister,
       name: "Minister",
-    },
-    {
-      id: 10,
-      img: tre,
-      name: "Tre",
-    },
+    }
   ];
 
 
 
   return (
-    <div className="px-3">
-      <div className=" text-white text-center md:text-start lg:flex md:flex block justify-between">
-        <div className="xl:text-[20px] lg:text-[16px] md:text-[14px] text-[16px] lg:w-[40%] md:w-[35%]">
-          <h2 className="uppercase xl:text-5xl lg:text-3xl md:text-2xl text-3xl font-extrabold fontSfMed">
-            THE BROtherhood
-          </h2>
+    <div className="px-3 lg:mt-[200px] md:mt-[150px] mt-[50px]">
+      <div className=" text-white text-center md:text-start lg:flex md:flex block justify-between lg:ml-[225px] md:ml-[50px] lg:gap-0 md:gap-5">
+        <div className="xl:text-[18px] lg:text-[16px] md:text-[14px] text-[16px] lg:w-[40%] md:w-[50%] w-[100%]">
+          <Title title={"THE BROtherhood"} classes={"text-center"} />
           <p className="mt-1 fontSfMed">
             Home to 8,888 CryptoBros — unique digital collectibles with proof of
             ownership stored on the Ethereum blockchain.
@@ -102,11 +97,16 @@ const Sliders = () => {
         </div>
         {/* slider text ends  */}
 
-        <div className="lg:w-[50%] md:w-[50%] w-[100%] my-auto h-[100%]">
+        <div className="lg:w-[50%] md:w-[50%] w-[100%] h-[100%]">
+          <div className='flex justify-end'>
+            <p className='flex items-center text-[18px] fontTrash text-[#56FFFF]'>Some of our honorary bros
+              <img className='mx-5 lg:w-[150px] md:w-[100px] w-[80px] h-[100px] md' src={arrow} alt='arrow'></img>
+            </p>
+          </div>
           <Swiper
             slidesPerView={3}
-            spaceBetween={30}
-            centeredSlides={true}
+            spaceBetween={25}
+            centeredSlides={false}
             autoplay={{
               delay: 3000,
               disableOnInteraction: false,
@@ -115,23 +115,13 @@ const Sliders = () => {
               clickable: true,
             }}
             navigation={false}
-            modules={[Autoplay, Navigation]}
+            modules={[Navigation]}
           >
             {sliderImg.map((sliderImg, i) => (
               <SwiperSlide key={i}>
                 <SliderItem sliderImg={sliderImg} />
               </SwiperSlide>
             ))}
-            {/* <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
-            <SwiperSlide>Slide 10</SwiperSlide> */}
           </Swiper>
         </div>
       </div>

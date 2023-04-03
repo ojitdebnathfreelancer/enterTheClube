@@ -3,7 +3,7 @@ import Title from "../../../Components/Title/Title";
 
 const ApplyFor = () => {
    return (
-      <div className="md:mt-24 mt-16 px-4 pb-4">
+      <div className="lg:mt-[200px] md:mt-[150px] mt-[50px] px-4 pb-4">
          <div className="max-container ">
             <Title title={"Apply for Brolist"} classes={"text-center"} />
             <div className="lg:w-[880px] mx-auto text-center">
@@ -13,7 +13,7 @@ const ApplyFor = () => {
                </p>
                <div>
                   <button
-                     className="fontTrash border text-[#5accf5]  border-[#5accf5] rounded-md mt-2 
+                     className="fontTrash border text-[#56FFFF]  border-[#56FFFF] rounded-md mt-2 
                   py-1 px-3"
                   >
                      APPlY NOW

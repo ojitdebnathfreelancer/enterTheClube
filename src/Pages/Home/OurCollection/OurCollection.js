@@ -4,7 +4,7 @@ import img1 from "../../../assets/Honorary/Deeze.png";
 
 const OurCollection = () => {
    return (
-      <div className="md:pt-24 pt-16 px-4">
+      <div className="lg:mt-[200px] md:mt-[150px] mt-[50px] px-4">
          <div className="max-container ">
             <Title title={"our collections"} classes={"text-center"} />
             <div className="grid md:grid-cols-2 gap-6 lg:w-[950px] mx-auto mt-3">

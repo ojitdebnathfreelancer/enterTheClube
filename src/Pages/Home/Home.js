@@ -8,6 +8,7 @@ import Sliders from "./Slider/Slider";
 import Hodleadrabord from "./Hodleadrabord/Hodleadrabord";
 import StringthNumber from "./StringthNumbers/StringthNumber";
 import Footer from "./Footer/Footer";
+import Navbar from "./Navbar/Navbar";
 
 const Home = () => {
    return (
@@ -15,6 +16,7 @@ const Home = () => {
          className=""
          style={{ background: "#000000 0% 0% no-repeat padding-box" }}
       >
+         <Navbar/>
          <Banner />
          <Sliders />
          <OurCollection />
