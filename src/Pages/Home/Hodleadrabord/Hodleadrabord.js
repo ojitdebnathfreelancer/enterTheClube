@@ -3,7 +3,7 @@ import React from 'react';
 const Hodleadrabord = () => {
     return (
         <div>
-            <h1>This is hodleadradbord</h1>
+            <h1 className='text-white'>This is hodleadradbord</h1>
         </div>
     );
 };
