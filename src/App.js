@@ -1,15 +1,12 @@
-import './App.css';
-import SliderItem from './Pages/Home/Slider/SliderItem';
-import Landing from './Pages/Landing/Landing';
+import React from "react";
+import Home from "./Pages/Home/Home";
 
-function App() {
-  return (
-    <div className="App bg-black">
-      {/* <h1>Hello world!</h1> */}
-      {/* <Landing /> */}
-      <SliderItem />
-    </div>
-  );
-}
+const App = () => {
+   return (
+      <div>
+         <Home />
+      </div>
+   );
+};
 
 export default App;
