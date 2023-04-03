@@ -2,7 +2,7 @@ import React from 'react';
 
 const PreLoading = () => {
     return (
-        <div>
+        <div className=''>
             <h1>Loading page</h1>
         </div>
     );
