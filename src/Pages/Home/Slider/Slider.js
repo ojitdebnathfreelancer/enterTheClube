@@ -9,6 +9,11 @@ import keung from "../../../assets/Honorary/Keung.png";
 import kmoney from "../../../assets/Honorary/Kmoney.png";
 import minister from "../../../assets/Honorary/Minister of NFTs.jpg";
 import tre from "../../../assets/Honorary/Tre.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay,  Navigation } from "swiper";
 
 import SliderItem from './SliderItem';
 
@@ -71,9 +76,9 @@ const Sliders = () => {
 
 
   return (
-    <div className="px-3 max-container">
-      <div className=" text-white flex ">
-        <div className="xl:text-[20px] lg:text-[16px] md:text-[14px] text-[16px] ">
+    <div className="px-3">
+      <div className=" text-white text-center md:text-start lg:flex md:flex block justify-between">
+        <div className="xl:text-[20px] lg:text-[16px] md:text-[14px] text-[16px] lg:w-[40%] md:w-[35%]">
           <h2 className="uppercase xl:text-5xl lg:text-3xl md:text-2xl text-3xl font-extrabold fontSfMed">
             THE BROtherhood
           </h2>
@@ -96,8 +101,38 @@ const Sliders = () => {
           </p>
         </div>
         {/* slider text ends  */}
-        <div className="flex items-center text-white">
-          <h2>dfgsdgfa.</h2>
+
+        <div className="lg:w-[50%] md:w-[50%] w-[100%] my-auto h-[100%]">
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={false}
+            modules={[Autoplay, Navigation]}
+          >
+            {sliderImg.map((sliderImg, i) => (
+              <SwiperSlide key={i}>
+                <SliderItem sliderImg={sliderImg} />
+              </SwiperSlide>
+            ))}
+            {/* <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>Slide 5</SwiperSlide>
+            <SwiperSlide>Slide 6</SwiperSlide>
+            <SwiperSlide>Slide 7</SwiperSlide>
+            <SwiperSlide>Slide 8</SwiperSlide>
+            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide>Slide 10</SwiperSlide> */}
+          </Swiper>
         </div>
       </div>
     </div>
