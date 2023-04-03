@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
    margin: 0;
    padding: 0;
@@ -59,10 +61,6 @@
 
 .pre-loading-bg {
    background: #c0ffff;
-}
-
-h1 {
-   font-family: redunRegular;
 }
 
 .loader {

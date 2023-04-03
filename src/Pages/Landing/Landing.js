@@ -31,9 +31,11 @@ const Landing = () => {
             <img className="h-full" src={landingImg} alt="landingImg" />
           </div>
           <div className="text-center">
-            <button className="border-2 border-gray-900 rounded xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] xl:px-5 lg:px-4 md:px-2 px-2 py-2 fontTrash">
-              Enter The BroTheRhood
-            </button>
+            <Link to="/home">
+              <button className="border-2 border-gray-900 rounded xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] xl:px-5 lg:px-4 md:px-2 px-2 py-2 fontTrash">
+                Enter The BroTheRhood
+              </button>
+            </Link>
           </div>
         </div>
       </div>
