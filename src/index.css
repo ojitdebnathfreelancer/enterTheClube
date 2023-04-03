@@ -3,100 +3,98 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
 @font-face {
-  font-family: trash;
-  src: url(./fonts/TrashHand.TTF);
+   font-family: trash;
+   src: url(./fonts/TrashHand.TTF);
 }
 
 @font-face {
-  font-family: redunRegular;
-  src: url(./fonts/Ruden-Regular.otf);
+   font-family: redunRegular;
+   src: url(./fonts/Ruden-Regular.otf);
 }
 
 @font-face {
-  font-family: redunBold;
-  src: url(./fonts/SF-Pro-Display-Bold.otf);
+   font-family: redunBold;
+   src: url(./fonts/SF-Pro-Display-Bold.otf);
 }
 
-
 @font-face {
-  font-family: sfRequler;
-  src: url(./fonts/SF-Pro-Display-Regular.otf);
+   font-family: sfRequler;
+   src: url(./fonts/SF-Pro-Display-Regular.otf);
 }
 
-
 @font-face {
-  font-family: sfMedium;
-  src: url(./fonts/SF-Pro-Display-Medium.otf);
+   font-family: sfMedium;
+   src: url(./fonts/SF-Pro-Display-Medium.otf);
 }
 
 .fontTrash {
-  font-family: trash;
+   font-family: trash;
 }
 
 .fontRedunReg {
-  font-family: redunRegular;
+   font-family: redunRegular;
 }
 
 .fontRedunBold {
-  font-family: redunBold;
+   font-family: redunBold;
 }
 
 .fontSfReg {
-  font-family: sfRequler;
+   font-family: sfRequler;
 }
 
 .fontSfMed {
-  font-family: sfMedium;
+   font-family: sfMedium;
 }
 
 .max-container {
-  max-width: 1280px;
-  margin: 0 auto;
+   max-width: 1280px;
+   margin: 0 auto;
 }
 
 .pre-loading-bg {
-  background: #C0FFFF;
+   background: #c0ffff;
 }
 
 h1 {
-  font-family: redunRegular;
+   font-family: redunRegular;
 }
 
 .loader {
-  position: relative;
-  border-radius: 12px;
-  background: linear-gradient(to right, #C0FFFF, #FFFFFF);
-  animation: loader 4s linear infinite;
+   position: relative;
+   border-radius: 12px;
+   background: linear-gradient(to right, #c0ffff, #ffffff);
+   animation: loader 4s linear infinite;
 }
 
 @keyframes loader {
-  0% {
-    background: linear-gradient(to right, #FFFFFF, #C0FFFF);
-    transition: all linear 0.4s;
-  }
+   0% {
+      background: linear-gradient(to right, #ffffff, #c0ffff);
+      transition: all linear 0.4s;
+   }
 
-  25% {
-    background: linear-gradient(to right, #C0FFFF, #FFFFFF);
-    transition: all linear 0.4s;
-  }
+   25% {
+      background: linear-gradient(to right, #c0ffff, #ffffff);
+      transition: all linear 0.4s;
+   }
 
-  50% {
-    background: linear-gradient(to right, #FFFFFF, #C0FFFF);
-    transition: all linear 0.4s;
-  }
+   50% {
+      background: linear-gradient(to right, #ffffff, #c0ffff);
+      transition: all linear 0.4s;
+   }
 
-  75% {
-    background: linear-gradient(to right, #C0FFFF, #FFFFFF);
-    transition: all linear 0.4s;
-  }
+   75% {
+      background: linear-gradient(to right, #c0ffff, #ffffff);
+      transition: all linear 0.4s;
+   }
 
-  100% {
-    background: linear-gradient(to right, #FFFFFF, #C0FFFF);
-    transition: all linear 0.4s;
-  }
+   100% {
+      background: linear-gradient(to right, #ffffff, #c0ffff);
+      transition: all linear 0.4s;
+   }
 }
