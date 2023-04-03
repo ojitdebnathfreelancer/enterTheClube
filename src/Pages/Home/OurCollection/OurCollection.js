@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Title from "../../../Components/Title/Title";
 
 const OurCollection = () => {
-    return (
-        <div>
-            <h1>this is our collection section</h1>
-        </div>
-    );
+   return (
+      <div className="max-container ">
+         <Title title={"our collections"} classes={"text-center"} />
+      </div>
+   );
 };
 
 export default OurCollection;

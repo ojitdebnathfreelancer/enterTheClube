@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import OurCollection from "./OurCollection/OurCollection";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>This is home page</h1>
-        </div>
-    );
+   return (
+      <div
+         className=""
+         style={{ background: "#000000 0% 0% no-repeat padding-box" }}
+      >
+         <OurCollection />
+      </div>
+   );
 };
 
 export default Home;

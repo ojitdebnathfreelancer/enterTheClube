@@ -3,62 +3,59 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
 @font-face {
-  font-family: trash;
-  src: url(./fonts/TrashHand.TTF);
+   font-family: trash;
+   src: url(./fonts/TrashHand.TTF);
 }
 
 @font-face {
-  font-family: redunRegular;
-  src: url(./fonts/Ruden-Regular.otf);
+   font-family: redunRegular;
+   src: url(./fonts/Ruden-Regular.otf);
 }
 
 @font-face {
-  font-family: redunBold;
-  src: url(./fonts/SF-Pro-Display-Bold.otf);
+   font-family: redunBold;
+   src: url(./fonts/SF-Pro-Display-Bold.otf);
 }
 
-
 @font-face {
-  font-family: sfRequler;
-  src: url(./fonts/SF-Pro-Display-Regular.otf);
+   font-family: sfRequler;
+   src: url(./fonts/SF-Pro-Display-Regular.otf);
 }
 
-
 @font-face {
-  font-family: sfMedium;
-  src: url(./fonts/SF-Pro-Display-Medium.otf);
+   font-family: sfMedium;
+   src: url(./fonts/SF-Pro-Display-Medium.otf);
 }
 
 .fontTrash {
-  font-family: trash;
+   font-family: trash;
 }
 
 .fontRedunReg {
-  font-family: redunRegular;
+   font-family: redunRegular;
 }
 
 .fontRedunBold {
-  font-family: redunBold;
+   font-family: redunBold;
 }
 
 .fontSfReg {
-  font-family: sfRequler;
+   font-family: sfRequler;
 }
 
 .fontSfMed {
-  font-family: sfMedium;
+   font-family: sfMedium;
 }
-
-.font .max-container {
-  max-width: 1400px;
-  margin: 0 auto;
+.max-container {
+   max-width: 1400px;
+   margin: 0 auto;
 }
 
 h1 {
-  font-family: redunRegular;
+   font-family: redunRegular;
 }
