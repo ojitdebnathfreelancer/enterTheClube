@@ -1,5 +1,8 @@
 import React from "react";
 import OurCollection from "./OurCollection/OurCollection";
+import TheHodlerGame from "./TheHodlerGame/TheHodlerGame";
+import ApplyFor from "./ApplyFor/ApplyFor";
+import Noanimal from "./NoAnimal/Noanimal";
 
 const Home = () => {
    return (
@@ -8,6 +11,9 @@ const Home = () => {
          style={{ background: "#000000 0% 0% no-repeat padding-box" }}
       >
          <OurCollection />
+         <TheHodlerGame />
+         <Noanimal />
+         <ApplyFor />
       </div>
    );
 };
