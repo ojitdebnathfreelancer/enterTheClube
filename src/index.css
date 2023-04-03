@@ -59,6 +59,44 @@
   margin: 0 auto;
 }
 
+.pre-loading-bg {
+  background: #C0FFFF;
+}
+
 h1 {
   font-family: redunRegular;
+}
+
+.loader {
+  position: relative;
+  border-radius: 12px;
+  background: linear-gradient(to right, #C0FFFF, #FFFFFF);
+  animation: loader 4s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    background: linear-gradient(to right, #FFFFFF, #C0FFFF);
+    transition: all linear 0.4s;
+  }
+
+  25% {
+    background: linear-gradient(to right, #C0FFFF, #FFFFFF);
+    transition: all linear 0.4s;
+  }
+
+  50% {
+    background: linear-gradient(to right, #FFFFFF, #C0FFFF);
+    transition: all linear 0.4s;
+  }
+
+  75% {
+    background: linear-gradient(to right, #C0FFFF, #FFFFFF);
+    transition: all linear 0.4s;
+  }
+
+  100% {
+    background: linear-gradient(to right, #FFFFFF, #C0FFFF);
+    transition: all linear 0.4s;
+  }
 }
