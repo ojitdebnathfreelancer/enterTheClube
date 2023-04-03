@@ -1,14 +1,17 @@
 import React from "react";
 import logo from "../../../assets/logo.png";
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 const Banner = () => {
    return (
       <div className="px-4">
-         <div className="flex justify-between items-center py-2">
-            <img className="h-16" src={logo} alt="" />
-            <p className="text-white">manu</p>
+         <div className="flex justify-between items-center py-2 mb-4">
+            <img className="h-14" src={logo} alt="" />
+            <div className="text-gray-200">
+               <HiOutlineBars3 size={25} />
+            </div>
          </div>
-         <div className="max-container text-white text-center lg:leading-[170px] leading-[120px]">
+         <div className="max-container fontRedunReg text-white text-center lg:leading-[170px] leading-[120px]">
             <h1 className="lg:text-[180px] md:text-[130px] text-[110px]">
                CRYPTO
             </h1>

@@ -61,10 +61,6 @@
    background: #c0ffff;
 }
 
-h1 {
-   font-family: redunRegular;
-}
-
 .loader {
    position: relative;
    border-radius: 12px;
