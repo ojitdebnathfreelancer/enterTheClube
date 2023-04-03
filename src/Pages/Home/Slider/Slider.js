@@ -67,6 +67,11 @@ const Sliders = () => {
       id: 9,
       img: minister,
       name: "Minister",
+    },
+    {
+      id: 10,
+      img: tre,
+      name: "tre",
     }
   ];
 
@@ -115,7 +120,7 @@ const Sliders = () => {
               clickable: true,
             }}
             navigation={false}
-            modules={[Navigation]}
+            modules={[Navigation, Autoplay]}
           >
             {sliderImg.map((sliderImg, i) => (
               <SwiperSlide key={i}>
