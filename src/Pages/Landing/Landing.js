@@ -5,7 +5,7 @@ import { BsTwitter, BsDiscord, BsInstagram } from "react-icons/bs";
 
 const Landing = () => {
     return (
-      <div className="max-container px-5">
+      <div className="max-container px-2">
         <div className="flex justify-between items-center mt-[16px]">
           <div className="xl:h-[70px] lg:h-[60px] md:h-[50px] h-[40px]">
             <img className="h-full" src={logo} alt="logo" />
@@ -16,6 +16,7 @@ const Landing = () => {
             <BsInstagram />
           </div>
         </div>
+        
         <div>
           <div className="flex justify-center items-center xl:h-[500px] lg:h-[420px] md:h-[300px] h-[250px]">
             <img className="h-full" src={landingImg} alt="landingImg" />
