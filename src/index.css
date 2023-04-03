@@ -17,6 +17,11 @@
   src: url(./fonts/Ruden-Regular.otf);
 }
 
+@font-face {
+  font-family: redunBold;
+  src: url(./fonts/SF-Pro-Display-Bold.otf);
+}
+
 
 @font-face {
   font-family: sfRequler;
@@ -29,13 +34,27 @@
   src: url(./fonts/SF-Pro-Display-Medium.otf);
 }
 
-@font-face {
-  font-family: redunBold;
-  src: url(./fonts/SF-Pro-Display-Bold.otf);
+.fontTrash {
+  font-family: trash;
 }
 
+.fontRedunReg {
+  font-family: redunRegular;
+}
 
-.max-container {
+.fontRedunBold {
+  font-family: redunBold;
+}
+
+.fontSfReg {
+  font-family: sfRequler;
+}
+
+.fontSfMed {
+  font-family: sfMedium;
+}
+
+.font .max-container {
   max-width: 1400px;
   margin: 0 auto;
 }
