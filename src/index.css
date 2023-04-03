@@ -7,10 +7,39 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: trash;
+  src: url(./fonts/TrashHand.TTF);
+}
+
+@font-face {
+  font-family: redunRegular;
+  src: url(./fonts/Ruden-Regular.otf);
+}
+
+
+@font-face {
+  font-family: sfRequler;
+  src: url(./fonts/SF-Pro-Display-Regular.otf);
+}
+
+
+@font-face {
+  font-family: sfMedium;
+  src: url(./fonts/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: redunBold;
+  src: url(./fonts/SF-Pro-Display-Bold.otf);
+}
+
+
 .max-container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-
-
+h1 {
+  font-family: redunRegular;
+}
