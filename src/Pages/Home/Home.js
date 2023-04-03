@@ -15,15 +15,15 @@ const Home = () => {
          className=""
          style={{ background: "#000000 0% 0% no-repeat padding-box" }}
       >
-         <Banner/>
-         <Sliders/>
+         <Banner />
+         <Sliders />
          <OurCollection />
          <TheHodlerGame />
-         <Hodleadrabord/>
+         <Hodleadrabord />
          <Noanimal />
          <ApplyFor />
-         <StringthNumber/>
-         <Footer/>
+         <StringthNumber />
+         <Footer />
       </div>
    );
 };
