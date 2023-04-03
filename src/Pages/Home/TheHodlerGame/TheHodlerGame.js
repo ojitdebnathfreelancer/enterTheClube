@@ -3,7 +3,7 @@ import Title from "../../../Components/Title/Title";
 
 const TheHodlerGame = () => {
    return (
-      <div className="md:mt-24 mt-16 px-4">
+      <div className="lg:mt-[200px] md:mt-[150px] mt-[50px] px-4">
          <div className="max-container ">
             <Title title={"THe holder game"} classes={"text-center"} />
             <div className="lg:w-[880px] mx-auto">

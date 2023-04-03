@@ -34,6 +34,11 @@
    src: url(./fonts/SF-Pro-Display-Medium.otf);
 }
 
+@font-face {
+   font-family: sfBold;
+   src: url(./fonts/SF-Pro-Display-Bold.otf);
+}
+
 .fontTrash {
    font-family: trash;
 }
@@ -52,6 +57,10 @@
 
 .fontSfMed {
    font-family: sfMedium;
+}
+
+.fontSfBold {
+   font-family: sfBold;
 }
 
 .max-container {
@@ -95,4 +104,8 @@
       background: linear-gradient(to right, #ffffff, #c0ffff);
       transition: all linear 0.4s;
    }
+}
+
+.swiper, swiper-container {
+   padding: 18px !important;
 }
