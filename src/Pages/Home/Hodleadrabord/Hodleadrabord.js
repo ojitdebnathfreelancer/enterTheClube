@@ -12,7 +12,7 @@ const Hodleadrabord = () => {
         <div className="max-container ">
           <Title title={"HODLEADERBOARD"} classes={"text-center"} />
           <div>
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2 mt-5">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2 mt-5">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">1</p>
                 <img
@@ -57,7 +57,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2 mt-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2 mt-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">2</p>
                 <img
@@ -102,7 +102,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2 mt-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2 mt-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">3</p>
                 <img
@@ -147,7 +147,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2 mt-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2 mt-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">4</p>
                 <img
@@ -192,7 +192,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">5</p>
                 <img
@@ -237,7 +237,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">6</p>
                 <img
@@ -282,7 +282,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">7</p>
                 <img
@@ -327,7 +327,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">8</p>
                 <img
@@ -372,7 +372,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">9</p>
                 <img
@@ -417,7 +417,7 @@ const Hodleadrabord = () => {
               </div>
             </div>
 
-            <div className="lg:w-[860px] md:w-[700px] w-[100%] mx-auto flex justify-between items-center border-b py-2">
+            <div className="lg:w-[700px] md:w-[600px] w-[288px] mx-auto flex justify-between items-center border-b py-2">
               <div className="flex justify-center items-center md:gap-4 gap-2">
                 <p className="ml-3 md:ml-0 fontSfBold">10</p>
                 <img
