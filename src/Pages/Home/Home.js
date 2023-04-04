@@ -10,6 +10,7 @@ import StringthNumber from "./StringthNumbers/StringthNumber";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
 
+
 const Home = () => {
    return (
       <div
