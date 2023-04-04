@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import OurCollection from "./OurCollection/OurCollection";
 import TheHodlerGame from "./TheHodlerGame/TheHodlerGame";
 import ApplyFor from "./ApplyFor/ApplyFor";
@@ -9,15 +9,18 @@ import Hodleadrabord from "./Hodleadrabord/Hodleadrabord";
 import StringthNumber from "./StringthNumbers/StringthNumber";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
+import SideMenu from "../../Components/SideMenu/SideMenu";
 
 
 const Home = () => {
+   const [menu, setMenu] = useState(false);
    return (
       <div
-         className=""
+         className="relative overflow-hidden"
          style={{ background: "#000000 0% 0% no-repeat padding-box" }}
       >
-         <Navbar/>
+         <Navbar menu={menu} setMenu={setMenu} />
+         <SideMenu menu={menu} setMenu={setMenu} />
          <Banner />
          <Sliders />
          <OurCollection />
