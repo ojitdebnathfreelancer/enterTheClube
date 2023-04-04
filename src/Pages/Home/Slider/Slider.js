@@ -78,7 +78,7 @@ const Sliders = () => {
 
 
   return (
-    <div className='lg:relative md:static static lg:h-[365px] lg:mt-[200px] md:mt-[150px] mt-[50px]'>
+    <div className='lg:relative md:static static lg:h-[365px] lg:mt-[200px] md:mt-[150px] mt-[50px] overflow-hidden'>
       <div className="px-3 max-container lg:absolute md:static static lg:top-0 lg:left-[210px]">
         <div className=" text-white text-center md:text-start lg:flex md:flex block justify-between lg:gap-0 md:gap-5">
           <div className="lg:text-[16px] md:text-[14px] text-[16px] lg:w-[30%] md:w-[50%] w-[100%]">
