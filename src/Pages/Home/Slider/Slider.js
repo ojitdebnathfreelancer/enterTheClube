@@ -78,8 +78,8 @@ const Sliders = () => {
 
 
   return (
-    <div className='lg:relative md:static static lg:h-[365px] lg:mt-[200px] md:mt-[150px] mt-[50px] overflow-hidden'>
-      <div className="px-3 max-container lg:absolute md:static static lg:top-0 lg:left-[15%]">
+    <div className='lg:relative md:static static lg:h-[400px] lg:mt-[200px] md:mt-[150px] mt-[50px] overflow-hidden'>
+      <div className="px-4 h-full lg:absolute md:static static lg:top-0 lg:right-[-115px] slider">
         <div className=" text-white text-center md:text-start lg:flex md:block block justify-between lg:gap-0 md:gap-5">
           <div className="lg:text-[16px] md:text-[16px] text-[16px] lg:w-[30%] md:w-[100%] w-[100%]">
             <Title title={"THE BROtherhood"} classes={"lg:text-start md:text-start text-center"} />
@@ -103,7 +103,7 @@ const Sliders = () => {
           </div>
           {/* slider text ends  */}
 
-          <div className="lg:w-[50%] md:w-[100%] w-[100%] h-[100%]">
+          <div className="md:w-[100%] w-[100%] h-[100%] slider-right">
             <div className='flex justify-center'>
               <p className='flex items-center text-[18px] fontTrash text-[#56FFFF]
                lg:ml-28 md:ml-20'>Some of our honorary bros

@@ -15,22 +15,22 @@ const StringthNumber = () => {
                      title={"STRENGTH IN NUMBERS"}
                      classes={"text-center md:text-start"}
                   />
-                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg">
+                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg lg:text-start md:text-start text-center">
                      The vision for CryptoBros extends far beyond our founding
                      team and core community members.{" "}
                   </p>
-                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg">
+                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg lg:text-start md:text-start text-center">
                      Today, with the help of blockchain technology, we extend an
                      invitation to each and every hodler to join us in building
                      a brand and community that represents the space that is
                      truly special to all of us.
                   </p>{" "}
-                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg">
+                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg lg:text-start md:text-start text-center">
                      We, in turn, pledge to give our best in creating the
                      strongest crypto-native brand on the internet. From web3 to
                      the world.
                   </p>{" "}
-                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg">
+                  <p className="md:leading-[30px] mb-5 md:text-[20px]  fontSfReg lg:text-start md:text-start text-center">
                      {" "}
                      By CryptoBros, for Crypto Bros.
                   </p>
