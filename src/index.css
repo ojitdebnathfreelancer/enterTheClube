@@ -103,8 +103,13 @@
    100% {
       background: linear-gradient(to right, #ffffff, #c0ffff);
       transition: all linear 0.4s;
+      
    }
 }
+.box-cercel{
+   background: rgb(86, 255, 255, 0.9);
+}
+
 
 .swiper, swiper-container {
    padding: 18px !important;
