@@ -10,7 +10,7 @@ const Landing = () => {
         <div className="flex justify-between items-center mt-[16px]">
           <div className="xl:h-[70px] lg:h-[60px] md:h-[50px] h-[40px]">
             <Link>
-              <img className="h-full" src={logo} alt="logo" />
+              <img loading='lazy' className="h-full" src={logo} alt="logo" />
             </Link>
           </div>
           <div className="xl:text-[22px] lg:text-[18px] md:text-[16px] text-[14px] flex gap-3">
