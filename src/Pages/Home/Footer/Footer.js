@@ -6,7 +6,7 @@ const Footer = () => {
     return (
       <div className="lg:mt-[200px] md:mt-[150px] mt-[50px] text-white lg:w-[950px] mx-auto lg:px-0 px-4">
         <div className="md:flex block justify-between items-center">
-          <div className="xl:text-[22px] lg:text-[18px] md:text-[16px] text-[28px] flex justify-center items-center gap-5">
+          <div className="lg:text-[22px] md:text-[20px] text-[28px] flex justify-center items-center gap-5">
             <Link>
               <BsTwitter />
             </Link>
@@ -17,7 +17,7 @@ const Footer = () => {
               <BsInstagram />
             </Link>
           </div>
-          <div className="md:flex block justify-center items-center lg:gap-8 md:gap-6 fontSfMed">
+          <div className="md:flex block justify-center items-center lg:gap-8 md:gap-6 gap-2 mb-4 fontSfMed">
             <div className="flex justify-center mt-4 items-center gap-6">
               <Link className="hover:bg-white hover:p-1 hover:text-black rounded">
                 Privacy Policy
