@@ -16,7 +16,7 @@ const Hodleadrabord = () => {
               <img className="h-14 w-14 rounded-full" src={img} alt="img" />
               <h2 className="fontSfBold">dontfadeanon.eth</h2>
             </div>
-            <div className="h-14  relative w-[190px] ">
+            <div className="relative w-[190px] mb-[60px]">
               <img
                 className="z-0 h-full w-full rounded-full absolute"
                 src={img}
