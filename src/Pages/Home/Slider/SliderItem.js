@@ -5,7 +5,7 @@ const SliderItem = ({ sliderImg }) => {
   return (
     <div className='relative'>
       <img
-        className="z-[-1] lg:h-[170px] md:h-[120px] rounded"
+        className="z-[-1] h-full w-full rounded"
         src={sliderImg?.img}
         alt="Luca"
       />
