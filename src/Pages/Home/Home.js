@@ -21,7 +21,7 @@ const Home = () => {
          <Sliders />
          <OurCollection />
          <TheHodlerGame />
-         {/* <Hodleadrabord /> */}
+         <Hodleadrabord />
          <Noanimal />
          <ApplyFor />
          <StringthNumber />
