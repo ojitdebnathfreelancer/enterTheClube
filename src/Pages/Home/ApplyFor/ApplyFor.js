@@ -7,7 +7,7 @@ const ApplyFor = () => {
          <div className="max-container ">
             <Title title={"Apply for Brolist"} classes={"text-center"} />
             <div className="lg:w-[880px] mx-auto text-center">
-               <p className="text-center text-gray-300 fontSfReg -mt-2">
+               <p className="text-center text-gray-300 fontSfReg -mt-2 md:leading-[30px]  md:text-[20px]">
                   Join us & relive excitement you haven't felt since aping into
                   your frist NFT project.
                </p>
