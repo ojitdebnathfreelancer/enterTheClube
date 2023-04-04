@@ -78,56 +78,59 @@ const Sliders = () => {
 
 
   return (
-    <div className="px-3 lg:mt-[200px] md:mt-[150px] mt-[50px]">
-      <div className=" text-white text-center md:text-start lg:flex md:flex block justify-between lg:ml-[225px] md:ml-[50px] lg:gap-0 md:gap-5">
-        <div className="xl:text-[18px] lg:text-[16px] md:text-[14px] text-[16px] lg:w-[40%] md:w-[50%] w-[100%]">
-          <Title title={"THE BROtherhood"} classes={"text-center"} />
-          <p className="mt-1 fontSfMed">
-            Home to 8,888 CryptoBros — unique digital collectibles with proof of
-            ownership stored on the Ethereum blockchain.
-          </p>
-          <p className="my-3 fontSfMed">
-            CryptoBros is a crypto-native brand for the culture. We champion the
-            founders, builders, analysts, creators, artists, collectors, and
-            contributors shaping the future of web3 & crypto.
-          </p>
-          <p className="fontSfMed">
-            We’re building a viral brand that spreads the excitement of crypto
-            and web3 to the world through content, memes, merchandise, and
-            digital collectables
-          </p>
-          <p className="mt-3 fontSfMed">
-            So what are you waiting for, let’s moon together.
-          </p>
-        </div>
-        {/* slider text ends  */}
-
-        <div className="lg:w-[50%] md:w-[50%] w-[100%] h-[100%]">
-          <div className='flex justify-end'>
-            <p className='flex items-center text-[18px] fontTrash text-[#56FFFF]'>Some of our honorary bros
-              <img className='mx-5 lg:w-[150px] md:w-[100px] w-[80px] h-[100px] md' src={arrow} alt='arrow'></img>
+    <div className='lg:relative md:static static lg:h-[365px] lg:mt-[200px] md:mt-[150px] mt-[50px] overflow-hidden'>
+      <div className="px-3 max-container lg:absolute md:static static lg:top-0 lg:left-[210px]">
+        <div className=" text-white text-center md:text-start lg:flex md:flex block justify-between lg:gap-0 md:gap-5">
+          <div className="lg:text-[16px] md:text-[14px] text-[16px] lg:w-[30%] md:w-[50%] w-[100%]">
+            <Title title={"THE BROtherhood"} classes={"lg:text-start md:text-start text-center"} />
+            <p className="mt-1 fontSfMed">
+              Home to 8,888 CryptoBros — unique digital collectibles with proof of
+              ownership stored on the Ethereum blockchain.
+            </p>
+            <p className="my-3 fontSfMed">
+              CryptoBros is a crypto-native brand for the culture. We champion the
+              founders, builders, analysts, creators, artists, collectors, and
+              contributors shaping the future of web3 & crypto.
+            </p>
+            <p className="fontSfMed">
+              We’re building a viral brand that spreads the excitement of crypto
+              and web3 to the world through content, memes, merchandise, and
+              digital collectables
+            </p>
+            <p className="mt-3 fontSfMed">
+              So what are you waiting for, let’s moon together.
             </p>
           </div>
-          <Swiper
-            slidesPerView={3}
-            spaceBetween={25}
-            centeredSlides={false}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={false}
-            modules={[Navigation, Autoplay]}
-          >
-            {sliderImg.map((sliderImg, i) => (
-              <SwiperSlide key={i}>
-                <SliderItem sliderImg={sliderImg} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          {/* slider text ends  */}
+
+          <div className="lg:w-[50%] md:w-[50%] w-[100%] h-[100%]">
+            <div className='flex justify-center'>
+              <p className='flex items-center text-[18px] fontTrash text-[#56FFFF]
+               lg:ml-28 md:ml-20'>Some of our honorary bros
+                <img className='mx-3 lg:w-[110px] md:w-[100px] w-[80px] h-[100px] md' src={arrow} alt='arrow'></img>
+              </p>
+            </div>
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={25}
+              centeredSlides={false}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={false}
+              modules={[Navigation, Autoplay]}
+            >
+              {sliderImg.map((sliderImg, i) => (
+                <SwiperSlide key={i}>
+                  <SliderItem sliderImg={sliderImg} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
     </div>
