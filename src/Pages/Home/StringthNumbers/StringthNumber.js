@@ -38,25 +38,25 @@ const StringthNumber = () => {
                <div className="grid md:grid-cols-2 gap-[25px]">
                   <div className="relative">
                      <img className="rounded-md w-full " src={img1} alt="" />
-                     <h6 className="absolute lg:top-44 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
+                     <h6 className="absolute lg:bottom-4 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black">
                         @dontfadeanon
                      </h6>
                   </div>
                   <div className="relative">
                      <img className="rounded-md w-full " src={img2} alt="" />
-                     <h6 className="absolute lg:top-44 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
+                     <h6 className="absolute lg:bottom-4 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
                         @luna
                      </h6>
                   </div>
                   <div className="relative">
                      <img className="rounded-md w-full " src={img3} alt="" />
-                     <h6 className="absolute lg:top-44 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
+                     <h6 className="absolute lg:bottom-4 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
                         @breezy
                      </h6>
                   </div>
                   <div className="relative">
                      <img className="rounded-md w-full " src={img4} alt="" />
-                     <h6 className="absolute lg:top-44 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
+                     <h6 className="absolute lg:bottom-4 md:bottom-8 bottom-6 -left-5 px-1.5 py-0.5 rounded-md text-white bg-black ">
                         @dedev
                      </h6>
                   </div>
