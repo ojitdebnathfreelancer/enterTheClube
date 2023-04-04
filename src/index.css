@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .hero-slider {
-  padding-left: calc((100% - 1530px) / 2);
-} */
-
 * {
    margin: 0;
    padding: 0;
@@ -105,14 +101,35 @@
    100% {
       background: linear-gradient(to right, #ffffff, #c0ffff);
       transition: all linear 0.4s;
-      
+
    }
 }
-.box-cercel{
+
+.box-cercel {
    background: rgb(86, 255, 255, 0.9);
 }
 
 
-.swiper, swiper-container {
+.swiper,
+swiper-container {
    padding: 18px !important;
+}
+
+@media  (min-width: 992px) {
+   .slider {
+      width: calc((100% - -10%));
+   }
+
+   .slider-right{
+      width: 60% !important;
+   }
+}
+
+@media (min-width:1025px) and (max-width: 1600px) {
+   .slider {
+      width: calc((100% - 10%));
+   }
+   .slider-right{
+      width: 50% !important;
+   }
 }

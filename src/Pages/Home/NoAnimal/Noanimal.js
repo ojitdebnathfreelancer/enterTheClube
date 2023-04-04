@@ -11,13 +11,13 @@ const Noanimal = () => {
                   <img className="rounded-md w-full" src={img} alt="" />
                </div>
                <div className="md:col-span-3 lg:ml-28">
-                  <Title title={"No animal pfp bullsh*t."} />
-                  <p className="text-gray-200 fontSfReg md:leading-[30px] md:text-[20px]  mb-3">
+                  <Title title={"No animal pfp bullsh*t."} classes={"lg:text-start md:text-start text-center"} />
+                  <p className="text-gray-200 fontSfReg md:leading-[30px] md:text-[20px] mb-3 lg:text-start md:text-start text-center">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Quia magnam vel eos fuga voluptate esse minus consequatur
                      sunt accusamus quae.
                   </p>
-                  <p className="text-gray-200 fontSfReg md:leading-[30px] md:text-[20px]  ">
+                  <p className="text-gray-200 fontSfReg md:leading-[30px] md:text-[20px] lg:text-start md:text-start text-center">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Quia magnam vel eos fuga voluptate esse minus consequatur
                      sunt accusamus quae. fuga voluptate esse minus consequatur
