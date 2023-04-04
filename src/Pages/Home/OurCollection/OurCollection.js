@@ -1,6 +1,9 @@
 import React from "react";
 import Title from "../../../Components/Title/Title";
-import img1 from "../../../assets/Honorary/Deeze.png";
+import img1 from "../../../assets/ourCollection/1.png";
+import img2 from "../../../assets/ourCollection/2.png";
+import img3 from "../../../assets/ourCollection/3.png";
+import img4 from "../../../assets/ourCollection/4.png";
 
 const OurCollection = () => {
    return (
@@ -38,7 +41,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- h-[260px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img1})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img2})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
@@ -65,7 +68,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- h-[260px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img1})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img3})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
@@ -92,7 +95,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- h-[260px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img1})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img4})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
