@@ -6,7 +6,11 @@ import { AiOutlineClose } from "react-icons/ai";
 const SideMenu = ({ menu, setMenu }) => {
 
   return (
-    <div className={`bg-[#1D1D1D] lg:w-[40%] md:w-[45%] w-[80%] md:p-8 p-4 absolute z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${menu ? 'top-0 right-0' : 'top-0 right-[-100%]'}`}>
+    <div
+      className={`bg-[#1D1D1D] border-l-[2px] min-h-screen border-[#707070] lg:w-[40%] md:w-[45%] w-[80%] md:p-8 p-4 absolute z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${
+        menu ? "top-0 right-0" : "top-0 right-[-100%]"
+      }`}
+    >
       <div className=" flex justify-between items-center ">
         <div className="text-white">
           <h2 className="fontSfBold md:text-2xl text-[24px]">Ecosystem</h2>
@@ -42,11 +46,11 @@ const SideMenu = ({ menu, setMenu }) => {
           <p className="mt-4 fontSfMed text-[14px]">Shop</p>
           <p className="fontSfMed text-[14px]">Merch and more</p>
         </div>
-        <div className="mb-[14px]">
+        <div>
           <h2 className="text-white fontSfMed lg:text-[22px] text-[20px]">
             BroCoin
           </h2>
-          <p className="fontSfMed text-[14px]">Stake your CryptoBros</p>
+          <p className="fontSfMed text-[14px] mt-4">Stake your CryptoBros</p>
           <p className="fontSfMed text-[14px]">
             Earn $BRO by Staking your CryptoBros
           </p>
@@ -71,9 +75,7 @@ const SideMenu = ({ menu, setMenu }) => {
           </h2>
 
           <p className="mt-4 fontSfMed text-[14px]">Season I: Brodinals</p>
-          <p className="fontSfMed text-[14px]">
-            High stakes and weekly prizes
-          </p>
+          <p className="fontSfMed text-[14px]">High stakes and weekly prizes</p>
 
           <p className="mt-4 fontSfMed text-[14px]">Hodleadboard</p>
           <p className="fontSfMed text-[14px]">

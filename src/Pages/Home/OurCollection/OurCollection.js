@@ -14,7 +14,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- lg:h-[300px] md:h-[330px] h-[300px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img1})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(${img1})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
@@ -41,7 +41,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- lg:h-[300px] md:h-[330px] h-[300px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img2})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(${img2})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
@@ -68,7 +68,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- lg:h-[300px] md:h-[330px] h-[300px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img3})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(${img3})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
@@ -92,7 +92,7 @@ const OurCollection = () => {
                <div
                   className=" rounded-md max- lg:h-[300px] md:h-[330px] h-[300px]"
                   style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img4})`,
+                     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(${img4})`,
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
                      backgroundSize: "cover",
