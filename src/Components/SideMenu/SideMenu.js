@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 const SideMenu = ({ menu, setMenu }) => {
 
   return (
-    <div className={`bg-[#1D1D1D] md:p-8 p-4 absolute top-0 right-0 duration-1000 ${menu ? 'visible opacity-[1] md:w-[50%] w-[100%]' : 'invisible opacity-[0] md:w-[0%] w-[0%]'}`}>
+    <div className={`bg-[#1D1D1D] lg:w-[40%] md:w-[45%] w-[80%] md:p-8 p-4 absolute z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${menu ? 'top-0 right-0' : 'top-0 right-[-100%]'}`}>
       <div className=" flex justify-between items-center ">
         <div className="text-white">
           <h2 className="fontSfBold md:text-2xl text-[24px]">Ecosystem</h2>
