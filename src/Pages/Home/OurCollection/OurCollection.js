@@ -22,18 +22,18 @@ const OurCollection = () => {
                   }}
                >
                   <div className="p-5 ">
-                     <h3 className="text-gray-200 md:text-[24px] text-[21px] font-semibold ">
+                     <h3 className="text-gray md:text-[24px] text-[21px] font-semibold ">
                         MAY 2023
                      </h3>
-                     <h3 className="text-gray-50 md:text-[34px] text-[28px] fontSfBold mt-1 mb-2">
+                     <h3 className="text-white md:text-[34px] text-[28px] font-sfBold mt-1 mb-2">
                         The CryptoBros
                      </h3>
-                     <p className="text-gray-200 fontSfReg md:mr-5 md:text-[20px] ">
+                     <p className="text-gray font-sfReg md:mr-5 md:text-normal ">
                         The CryptoBros our primiere collection od 8,888 PFPs
                         that serve as a membership card to utility and perks
                         available exclusively to the Brotherhood.
                      </p>
-                     <button className="bg-white text-gray-950 fontSfMed rounded-lg px-3 py-1 mt-3">
+                     <button className="bg-white text-gray-950 font-sfMed rounded-lg px-3 py-1 mt-3">
                         Learn More
                      </button>
                   </div>
@@ -49,18 +49,18 @@ const OurCollection = () => {
                   }}
                >
                   <div className="p-5 ">
-                     <h3 className="text-gray-200 md:text-[24px] text-[21px] font-semibold ">
+                     <h3 className="text-gray md:text-[24px] text-[21px] font-semibold ">
                         JUNE 2023
                      </h3>
-                     <h3 className="text-gray-50 md:text-[34px] text-[28px] fontSfBold mt-1 mb-2">
+                     <h3 className="text-white md:text-[34px] text-[28px] font-sfBold mt-1 mb-2">
                         Season I: Brordinals
                      </h3>
-                     <p className="text-gray-200 fontSfReg md:mr-5 md:text-[20px]">
+                     <p className="text-gray font-sfReg md:mr-5 md:text-normal">
                         A first of its kind limited edition collection
                         consisting of 10 winnable and 10 honorary one-of-one
                         CryptoBro ordinals, inscribed on the Bitcoin blockchain.
                      </p>
-                     <button className="bg-white text-gray-950 fontSfMed rounded-lg px-3 py-1 mt-3">
+                     <button className="bg-white text-gray-950 font-sfMed rounded-lg px-3 py-1 mt-3">
                         Learn More
                      </button>
                   </div>
@@ -76,13 +76,13 @@ const OurCollection = () => {
                   }}
                >
                   <div className="p-5 ">
-                     <h3 className="text-gray-200 md:text-[24px] text-[21px] font-semibold ">
+                     <h3 className="text-gray md:text-[24px] text-[21px] font-semibold ">
                         TBC
                      </h3>
-                     <h3 className="text-gray-50 md:text-[34px] text-[28px] fontSfBold mt-1 mb-2">
+                     <h3 className="text-white md:text-[34px] text-[28px] font-sfBold mt-1 mb-2">
                         The Feds
                      </h3>
-                     <p className="text-gray-200 fontSfReg md:mr-5 md:text-[20px]">
+                     <p className="text-gray font-sfReg md:mr-5 md:text-normal">
                         The CryptoBros wouldn’t be complete without 888
                         utility-enabled Feds who make the money printer go brrr.
                         Rumour has it they’re coming for your $BRO.
@@ -100,13 +100,13 @@ const OurCollection = () => {
                   }}
                >
                   <div className="p-5 ">
-                     <h3 className="text-gray-200 md:text-[24px] text-[21px] font-semibold ">
+                     <h3 className="text-gray md:text-[24px] text-[21px] font-semibold ">
                         TBC
                      </h3>
-                     <h3 className="text-gray-50 md:text-[34px] text-[28px] fontSfBold mt-1 mb-2">
+                     <h3 className="text-white md:text-[34px] text-[28px] font-sfBold mt-1 mb-2">
                         II: Attention Economy
                      </h3>
-                     <p className="text-gray-200 fontSfReg md:mr-5 md:text-[20px]">
+                     <p className="text-gray font-sfReg md:mr-5 md:text-normal">
                         More ordinals, followers, views, and attention.
                         CryptoBros go viral, become a hedge against inflation
                         and trigger an NFT Bull-Run.
