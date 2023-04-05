@@ -7,7 +7,7 @@ const SideMenu = ({ menu, setMenu }) => {
 
   return (
     <div
-      className={`bg-[#1D1D1D] border-l-[2px] min-h-screen border-[#707070] lg:w-[40%] md:w-[45%] w-[80%] md:p-8 p-4 absolute z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${
+      className={`bg-[#1D1D1D] border-l-[2px] min-h-screen border-[#707070] xl:w-[30%] lg:w-[40%] md:w-[45%] w-[80%] md:p-8 p-4 absolute z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${
         menu ? "top-0 right-0" : "top-0 right-[-100%]"
       }`}
     >
