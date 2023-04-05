@@ -115,21 +115,138 @@ swiper-container {
    padding: 18px !important;
 }
 
-@media  (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1024px) {
    .slider {
       width: calc((100% - -10%));
    }
 
-   .slider-right{
+   .slider-left{
+      width: 45% !important;
+   }
+
+   .slider-right {
       width: 60% !important;
    }
 }
 
-@media (min-width:1025px) and (max-width: 2000px) {
+@media (min-width:1025px) and (max-width: 1170px) {
    .slider {
-      width: calc((100% - 10%));
+      width: calc((100% - -2%));
    }
-   .slider-right{
+
+   .slider-left{
+      width: 45% !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+
+   .slider-arrow{
+      margin-left: 0px;
+   }
+}
+
+@media (min-width:1170px) and (max-width: 1240px) {
+   .slider {
+      width: calc((100% - 0%));
+   }
+
+   .slider-left{
+      width: 38% !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+}
+
+@media (min-width:1241px) and (max-width: 1400px) {
+   .slider {
+      width: calc((100% - 2%));
+   }
+
+   .slider-left{
+      width: 46% !important;
+      font-size: 18px !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+}
+
+@media (min-width:1401px) and (max-width: 1500px) {
+   .slider {
+      width: calc((100% - 9%));
+   }
+
+   .slider-left{
+      width: 40% !important;
+      font-size: 18px !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+}
+
+@media (min-width:1501px) and (max-width: 1600px) {
+   .slider {
+      width: calc((100% - 12%));
+   }
+
+   .slider-left{
+      width: 40% !important;
+      font-size: 20px !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+}
+
+@media (min-width:1601px) and (max-width: 1800px) {
+   .slider {
+      width: calc((100% - 14%));
+   }
+
+   .slider-left{
+      width: 46% !important;
+      font-size: 20px !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+}
+
+@media (min-width:1801px) and (max-width: 1920px) {
+   .slider {
+      width: calc((100% - 18%));
+   }
+
+   .slider-left{
+      width: 40% !important;
+      font-size: 20px !important;
+   }
+
+   .slider-right {
+      width: 50% !important;
+   }
+}
+
+@media (min-width:1921px) {
+   .slider {
+      width: calc((100% - 20%));
+   }
+
+   .slider-left{
+      width: 40% !important;
+      font-size: 20px !important;
+   }
+
+   .slider-right {
       width: 50% !important;
    }
 }
