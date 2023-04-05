@@ -30,7 +30,7 @@ const SideMenu = ({ menu, setMenu }) => {
           </button>
         </div>
       </div>
-      <div className="lg:flex block justify-between items-center gap-4 text-[#a39e9e] mt-10">
+      <div className="lg:flex block justify-between items-center gap-4 menu-color mt-10">
         <div>
           <h2 className="text-white fontSfMed lg:text-[22px] text-[20px]">
             About CryptoBros
@@ -68,7 +68,7 @@ const SideMenu = ({ menu, setMenu }) => {
         </div>
       </div>
 
-      <div className="lg:flex block justify-between items-center text-[#a39e9e] gap-4 mt-10">
+      <div className="lg:flex block justify-between items-center menu-color gap-4 mt-10">
         <div className="mb-[44px]">
           <h2 className="text-white fontSfMed lg:text-[22px] text-[20px]">
             Participate

@@ -74,39 +74,48 @@
    position: relative;
    border-radius: 12px;
    background: linear-gradient(to right, #c0ffff, #ffffff);
-   animation: loader 4s linear infinite;
+   animation: loader 2.8s linear;
 }
 
 @keyframes loader {
    0% {
-      background: linear-gradient(to right, #ffffff, #c0ffff);
-      transition: all linear 0.4s;
+      /* background: linear-gradient(to right, #ffffff, #c0ffff); */
+      width: 0%;
+      transition: all linear 0.2s;
    }
 
    25% {
-      background: linear-gradient(to right, #c0ffff, #ffffff);
-      transition: all linear 0.4s;
+      /* background: linear-gradient(to right, #c0ffff, #ffffff); */
+      width: 25%;
+      transition: all linear 0.2s;
    }
 
    50% {
-      background: linear-gradient(to right, #ffffff, #c0ffff);
-      transition: all linear 0.4s;
+      /* background: linear-gradient(to right, #ffffff, #c0ffff); */
+      width: 50%;
+      transition: all linear 0.2s;
    }
 
    75% {
-      background: linear-gradient(to right, #c0ffff, #ffffff);
-      transition: all linear 0.4s;
+      /* background: linear-gradient(to right, #c0ffff, #ffffff); */
+      width: 75%;
+      transition: all linear 0.2s;
    }
 
    100% {
-      background: linear-gradient(to right, #ffffff, #c0ffff);
-      transition: all linear 0.4s;
+      /* background: linear-gradient(to right, #ffffff, #c0ffff); */
+      width: 100%;
+      transition: all linear 0.2s;
 
    }
 }
 
 .box-cercel {
    background: rgb(86, 255, 255, 0.9);
+}
+
+.menu-color{
+   color: rgba(255, 255, 255, 0.25);
 }
 
 
@@ -197,7 +206,7 @@ swiper-container {
    }
 
    .slider-left{
-      width: 40% !important;
+      width: 45% !important;
       font-size: 20px !important;
    }
 
