@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 const SideMenu = ({ menu, setMenu }) => {
    return (
       <div
-         className={`bg-[#1D1D1D] text-gray1 min-h-screen border-[#707070] xl:w-[30%] lg:w-[40%] md:w-[45%] w-[80%] md:p-8 p-4 md:fixed absolute overflow-auto z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${
+         className={`bg-[#1D1D1D] text-gray1 min-h-screen border-[#707070] xl:w-[40%] lg:w-[50%] md:w-[45%] w-[80%] md:p-8 p-4 xl:fixed absolute overflow-auto z-[99999999]  lg:duration-[1s] md:duration-[0.8s] duration-[0.8s] ${
             menu ? "top-0 right-0" : "top-0 right-[-100%]"
          }`}
       >

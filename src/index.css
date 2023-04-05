@@ -66,10 +66,6 @@
    margin: 0 auto;
 }
 
-.pre-loading-bg {
-   background: #c0ffff;
-}
-
 .loader {
    position: relative;
    border-radius: 12px;
