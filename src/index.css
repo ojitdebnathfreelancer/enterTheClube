@@ -74,31 +74,13 @@
    position: relative;
    border-radius: 12px;
    background: linear-gradient(to right, #c0ffff, #ffffff);
-   animation: loader 2.8s linear;
+   animation: loader 2.8s ease-in;
 }
 
 @keyframes loader {
    0% {
       /* background: linear-gradient(to right, #ffffff, #c0ffff); */
       width: 0%;
-      transition: all linear 0.2s;
-   }
-
-   25% {
-      /* background: linear-gradient(to right, #c0ffff, #ffffff); */
-      width: 25%;
-      transition: all linear 0.2s;
-   }
-
-   50% {
-      /* background: linear-gradient(to right, #ffffff, #c0ffff); */
-      width: 50%;
-      transition: all linear 0.2s;
-   }
-
-   75% {
-      /* background: linear-gradient(to right, #c0ffff, #ffffff); */
-      width: 75%;
       transition: all linear 0.2s;
    }
 
