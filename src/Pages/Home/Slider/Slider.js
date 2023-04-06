@@ -106,7 +106,7 @@ const Sliders = () => {
                <div className="md:w-[100%] w-[100%] h-[100%] slider-right">
                   <div className="flex justify-center">
                      <p
-                        className="flex items-center text-[18px] fontTrash text-teal
+                        className="flex items-center text-normal fontTrash text-teal
                slider-arrow"
                      >
                         Some of our honorary bros

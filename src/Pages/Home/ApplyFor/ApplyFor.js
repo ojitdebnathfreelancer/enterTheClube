@@ -13,8 +13,8 @@ const ApplyFor = () => {
                </p>
                <div>
                   <button
-                     className="font-trash border text-teal  border-teal rounded-md mt-2 
-                  py-1 px-3"
+                     className="font-trash text-normal border text-teal  border-teal rounded-md mt-2 
+                  py-1 px-4"
                   >
                      APPlY NOW
                   </button>
