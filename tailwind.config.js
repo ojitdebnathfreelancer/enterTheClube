@@ -22,6 +22,7 @@ module.exports = {
             gray: "#E2E8F0",
             teal: "#56FFFF",
             gray1: "rgba(255, 255, 255, 0.25)",
+            gray2: "rgba(255, 255, 255, 0.50)",
             loaderColor: "#c0ffff",
          },
          lineHeight: {

@@ -39,7 +39,7 @@ const SideMenu = ({ menu, setMenu }) => {
                <h3 className="text-[#50E8E8] font-sfMed md:text-[18px] text-[17px] mt-4">
                   The Brotherhood
                </h3>
-               <p className="font-sfMed  text-[14px] text-gray1">
+               <p className="font-sfMed  text-[14px] text-gray2">
                   Learn about the vision
                </p>
 
@@ -68,7 +68,7 @@ const SideMenu = ({ menu, setMenu }) => {
                <h3 className="text-[#50E8E8] font-sfMed md:text-[18px] text-[17px] mt-4">
                   $BRO Documentation
                </h3>
-               <p className="text-[14px] text-gray1 font-sfMed">
+               <p className="text-[14px] text-gray2 font-sfMed">
                   All you need to know about $BRO
                </p>
 
@@ -108,7 +108,7 @@ const SideMenu = ({ menu, setMenu }) => {
                <h3 className="text-[#50E8E8] font-sfMed md:text-[18px] text-[17px] mt-4">
                   House of Memes
                </h3>
-               <p className="font-sfMed text-[14px] text-gray1">
+               <p className="font-sfMed text-[14px] text-gray2">
                   #1 Crypto Twitter Meme Library
                </p>
                <p className="font-sfMed text-[14px] text-gray1 mt-4">BroFund</p>

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ menu, setMenu }) => {
    return (
-      <div className="max-container">
-         <div className="mt-[16px] flex justify-between items-center mb-4 lg:px-0 md:px-4 px-4">
+      <div className="mt-[16px] px-5">
+         <div className="flex justify-between items-center mb-4 lg:px-0 md:px-4">
             <Link to="/">
                <img
                   className="xl:h-[70px] lg:h-[60px] md:h-[50px] h-[40px]"
