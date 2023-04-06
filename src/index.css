@@ -75,13 +75,11 @@
 
 @keyframes loader {
    0% {
-      /* background: linear-gradient(to right, #ffffff, #c0ffff); */
       width: 0%;
       transition: all linear 0.2s;
    }
 
    100% {
-      /* background: linear-gradient(to right, #ffffff, #c0ffff); */
       width: 100%;
       transition: all linear 0.2s;
    }
